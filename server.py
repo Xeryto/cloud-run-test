@@ -30,7 +30,7 @@ def get_engine():
 
 @app.route("/")
 def home():
-    return "<h1>COMS W4111 Cloud Run Test</h1><p>Database prototype: baseline.</p>"
+    return "<h1>COMS W4111 Cloud Run Test</h1><p>Database prototype: automatic redeployment test.</p>"
 
 
 @app.route("/db-check")
